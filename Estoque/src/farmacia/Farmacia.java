@@ -18,21 +18,7 @@ public class Farmacia {
 		return "Conteudo: " + estoque.get(qtd) + ", Quantidade total: " + qtd;
 	}
 	
-/*	public void listar(int qtd, Produto[] estoque) {
-		for(int i = 0; i<qtd; i++) {
-			System.out.println(estoque[i].getNome().toString());
-		}
-	}
-	
-	public void buscar(String nome) {
-		Produto p;
-		for(int i = 0, i<qtd, i++) {
-			if(conteudo[i].nome == 'n') {
-				p = conteudo[i];
-				i=qtd;
-			}
-		}*/
-		
+
 	
 	public int getQtd() {
 		return qtd;
