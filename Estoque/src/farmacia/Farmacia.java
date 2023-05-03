@@ -5,7 +5,7 @@ import java.util.*;
 public class Farmacia {
 	
 	private int qtd;
-	private ArrayList<Produto> estoque = new ArrayList<Produto>();
+	private ArrayList<Produto> estoque;
 	
 	
 	public Farmacia(int qtd, ArrayList<Produto> estoque) {
@@ -15,7 +15,7 @@ public class Farmacia {
 	}
 	
 	public String toString() {
-		return "Conteudo: " + estoque.get(qtd) + ", Quantidade total: " + qtd;
+		return "Produto: " + estoque + ", Quantidade: " + qtd;
 	}
 	
 
